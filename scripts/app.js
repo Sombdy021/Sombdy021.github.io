@@ -50,6 +50,6 @@ window.addEventListener("load", getJock());
 
 
 function getJock() {
-	jokeDiv.innerHTML = Mass[Math.round(Math.random()*Mass.length)-1]
+	jokeDiv.innerHTML = Mass[Math.round(Math.random()*Mass.length-1)]
 	console.log(jokeDiv.innerHTML)
 }
